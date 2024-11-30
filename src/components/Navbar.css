@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  align-items: center; 
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 100px; 
+}
+
+.button-container {
+  margin-left: auto; 
+}
+
+button {
+  position: relative;
+  right: 0;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+#logo{
+  width: 150px;
+  height: 100px;
+}

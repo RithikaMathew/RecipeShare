@@ -1,0 +1,58 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    color: #ffffff;
+    background-color: rgb(40, 39, 39);
+    font-size: 15px;
+    position: relative;
+    padding: 20px;
+
+}
+
+p,h2 {
+    margin: 0.5em 0;
+    margin-left: 20px;
+}
+
+.pButton {
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(255,218,148);
+    color:black;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    width: 10%;
+    margin-left: 20px;
+    
+}
+
+.pButton:hover {
+    border-color: #f47b8e;
+  }
+
+  .moreButton {
+    position: absolute;
+    right: 0;
+    top: 5; 
+    width: 30px;
+    height: 30px;
+}
+
+.moreButton:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

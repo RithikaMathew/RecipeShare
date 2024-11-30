@@ -1,0 +1,17 @@
+.Home {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  padding: 50px;
+  border-radius: 20px;
+  width: 55%;
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+
+.Home img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
